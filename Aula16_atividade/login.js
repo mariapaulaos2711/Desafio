@@ -14,6 +14,7 @@ formLogin.addEventListener("submit", function (event) {
         senha === "P@Arade3er*&%!nteliGent3@>:("
     ) {
         window.location.href = paginaPassou;
+
     } else {
         mensagemErro.textContent = "Usuário ou senha incorretos. Tente novamente.";
     }
